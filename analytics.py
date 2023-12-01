@@ -1,3 +1,14 @@
+"""
+Big Data & Análisis Laboral en Argentina
+=================
+Este programa en Python analiza la distribución del empleo en Argentina, ofreciendo perspectivas a nivel nacional y provincial. 
+Destaca las actividades económicas más relevantes y utiliza gráficos interactivos para visualizar la distribución del empleo por sectores. 
+Además, incorpora un análisis temporal para comprender la evolución del empleo a lo largo de los años.
+
+Author: Banegas Luis
+Fecha: 2023-11-30
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Button
