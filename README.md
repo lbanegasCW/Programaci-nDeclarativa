@@ -34,3 +34,39 @@ Este programa es una herramienta poderosa para analizar y comprender la situaci�
 **Nota:** Asegúrate de tener las bibliotecas necesarias instaladas antes de ejecutar el programa.
 
 ---
+
+## Guía de Instalación
+
+**1. Instalar Python**
+
+Descarga e instala Python desde el [sitio oficial de Python](https://www.python.org/). Asegúrate de marcar la opción "Add Python to PATH" durante la instalación.
+
+
+**2. Instalar virtualenv (si aún no lo tienes)**
+
+Abre tu terminal o símbolo del sistema.
+
+Ejecuta el siguiente comando para instalar virtualenv (si no está instalado):
+
+```bash
+pip install virtualenv
+```
+
+
+**3. Crear un Entorno Virtual**
+
+Navega a la ubicación donde deseas crear tu entorno virtual.
+Ejecuta el siguiente comando para crear un entorno virtual llamado env (puedes cambiar el nombre si lo deseas):
+
+```bash
+virtualenv env
+```
+
+
+**4. Activar el Entorno Virtual**
+
+En la terminal, ejecuta el siguiente comando para activar el entorno virtual:
+
+```bash
+.\env\Scripts\activate
+```
